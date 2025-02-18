@@ -1,7 +1,7 @@
 import GetButtonStyling from "./getButtonStyleType";
 
 
-function Button({text, buttonType, styleType, onClickHandler}){
+function Button({text, buttonType , styleType, onClickHandler}){
  
 return(
  <button 
