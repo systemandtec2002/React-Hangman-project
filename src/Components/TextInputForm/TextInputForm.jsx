@@ -1,4 +1,4 @@
-// TextInputForm.jsx
+// presentation container
 import TextInput from "../TextInput/TextInput";
 import Button from "../Button/Button";
 

@@ -3,7 +3,7 @@
 import getButtonStyling from "./getButtonStyleType";
 
 
-function Button({text, buttonType = "button" , styleType, onClickHandler}){
+function Button({text, buttonType , styleType, onClickHandler}){
  
 return(
  <button 
