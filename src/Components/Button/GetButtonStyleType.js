@@ -1,5 +1,5 @@
 //import GetButtonStyleType from "./Components/Button/GetButtonStyleType";
-function GetButtonStyling (styleType){
+function getButtonStyling (styleType){
 
   const  primaryButtonStyling = "bg-blue-900 border border-blue-700 hover:bg-blue-700 hover:border ; border-blue-700 px-6";
 
@@ -26,4 +26,4 @@ return errorButtonStyling
 
 }
 
-export default GetButtonStyling;
+export default getButtonStyling;

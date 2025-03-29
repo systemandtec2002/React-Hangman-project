@@ -1,4 +1,6 @@
-import GetButtonStyling from "./getButtonStyleType";
+// import getButtonStyling from "./Button/getButtonStyling";
+
+import getButtonStyling from "./getButtonStyleType";
 
 
 function Button({text, buttonType = "button" , styleType, onClickHandler}){
@@ -9,7 +11,7 @@ return(
 type={buttonType}
 onClick={onClickHandler}
 
-className =  {`px-3 py-2 ${GetButtonStyling(styleType)}  text-white  rounded-2xl transition-all` }
+className =  {`px-3 py-2 ${getButtonStyling(styleType)}  text-white  rounded-2xl transition-all` }
 >
   {text} 
   
